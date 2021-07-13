@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            #videobcg
+            {
+                position:absolute;
+                top: 0px;
+                left: 0px;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                z-index: -1000;
+                overflow: hidden;
+            }
+        </style>
+        
     <title>web1 - title</title> 
     <meta charset="utf-8">
 </head>
 
 
 <body>
+    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted">
+        <source src="video.mp4" type="video/mp4">
+        
+    </video>
     <h1><a href="index.html"><u>FIRST WEB</h1></a></u> 
     <ol>
         <li><a href="1.html"> HTML </a></li>
@@ -15,6 +34,7 @@
     </ol>
 
 <Br> WELCOME!
+  
 </body>
 
 </html>
