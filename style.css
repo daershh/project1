@@ -1,0 +1,44 @@
+
+            #videobcg
+            {
+                position:absolute;
+                top: 0px;
+                left: 0px;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                z-index: -1000;
+                overflow: hidden;  
+            }
+            body {
+                margin: 0;
+            }
+            a {
+                color: white;
+                text-decoration: none;
+            }
+            h1 {
+                font-size: 50px;
+                text-align: center;
+                border-bottom: 3px solid white;
+                margin: 0;
+                padding: 10px;
+            }
+            li {color: white;}
+            #grid ol{
+                border-right: 3px solid white;
+                width:100px;
+                margin: 0;
+                padding: 20px;
+            }
+            
+            #grid{
+                display: grid;
+                grid-template-columns: 150px 1fr;
+            }
+            @media(max-width:800px)
+            {
+                
+            }
+    
